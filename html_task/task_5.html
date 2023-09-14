@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 5</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      th,
+      td {
+        padding: 10px;
+      }
+
+      form {
+        text-align: center;
+      }
+
+      button {
+        width: 100px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Task 5</h1>
+    <form action="#">
+      <table>
+        <tr>
+          <td><label for="firstname">First Name</label></td>
+          <td><input type="text" name="firstname" id="firstname" /></td>
+        </tr>
+        <tr>
+          <td><label for="lastname">Last Name</label></td>
+          <td><input type="text" name="lastname" id="lastname" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input type="password" name="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="repassword">Re-enter Password</label></td>
+          <td><input type="password" name="repassword" id="repassword" /></td>
+        </tr>
+        <tr>
+          <td><label>Gender</label></td>
+          <td>
+            <label
+              ><input type="radio" name="gender" value="male" /> Male</label
+            >
+            <label
+              ><input type="radio" name="gender" value="female" /> Female</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td><input type="number" name="age" id="age" /></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone Number</label></td>
+          <td><input type="tel" name="phone" id="phone" /></td>
+        </tr>
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td><input type="text" name="address" id="address" /></td>
+        </tr>
+        <tr>
+          <td><label for="state">State</label></td>
+          <td><input type="text" name="state" id="state" /></td>
+        </tr>
+        <tr>
+          <td><label for="country">Country</label></td>
+          <td>
+            <select name="country" id="country">
+              <option value="india">India</option>
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+              <option value="canada">Canada</option>
+              <option value="australia">Australia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="languages">Languages Known</label></td>
+          <td>
+            <label
+              ><input type="checkbox" name="languages[]" value="english" />
+              English</label
+            >
+            <label
+              ><input type="checkbox" name="languages[]" value="hindi" />
+              Hindi</label
+            >
+            <label
+              ><input type="checkbox" name="languages[]" value="tamil" />
+              Tamil</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>
+              <input type="checkbox" name="declaration" /> I hereby declare that
+              the above information is true
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">Register</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

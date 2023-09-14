@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Task 2</title>
+    <style>
+      #vertical {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 125px;
+        background-color: rgb(17, 221, 232);
+      }
+
+      ul#vertical li a {
+        display: block;
+        color: rgb(22, 94, 209);
+        font-weight: bold;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+
+      ul#vertical li a:hover {
+        background-color: orange;
+        color: white;
+      }
+
+      #horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        overflow: hidden;
+        background-color: #eeeeee;
+      }
+
+      ul#horizontal li {
+        float: left;
+      }
+
+      ul#horizontal li a {
+        display: block;
+        color: blue;
+        font-weight: bold;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+
+      ul#horizontal li a:hover {
+        background-color: gray;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS Task 2</h1>
+
+    <ul id="horizontal">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"
+          >JavaScript</a
+        >
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
+      </li>
+    </ul>
+    <br /><br />
+
+    <ul id="vertical">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"
+          >JavaScript</a
+        >
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
+      </li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>
+      </li>
+      <li>
+        <a
+          href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+          target="_blank"
+          >Bootstrap</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
